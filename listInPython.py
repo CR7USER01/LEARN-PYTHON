@@ -14,8 +14,8 @@ print(friends[1])
 print(friends[2])"""
 
 friends = [["jitu",21],["biswa",22],["anil",20]]
-#friends.append("jen")
-friends.remove(["jitu",21])
+friends.append("jen")
+#friends.remove(["jitu",21])
 print(friends)
 
 """friends = ["jitu","biswa","anil"]
