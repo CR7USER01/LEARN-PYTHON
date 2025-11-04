@@ -1,9 +1,6 @@
-my_number = 5
-user_number = int(input("enter a number:"))
 
-if my_number==user_number 
-print("l")
+friend1 = "Jitu"
+friend2 = "Anil"
+friend3 = "Biswa"
 
-else:
-
-print("try again")
+friend = ["jitu","biswa","anil"]
