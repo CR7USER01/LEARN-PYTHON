@@ -6,5 +6,3 @@ for n in range(2, 10):  # 2 is first prime number
      else:
         print(f" {n} is a prime number.")
         
-
-       
