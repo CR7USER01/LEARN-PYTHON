@@ -1,0 +1,26 @@
+
+"""car = {
+        "make": "Ford",
+        "model": "Fiesta",
+        "mileage": 23000,
+        "fuel_consumed": 460
+   
+
+    }"""
+
+cars = [
+    {"make": "Ford","model": "Fiesta", "mileage":23000, "fuel_consumed": 460},
+    {"make": "Ford","model": "Focus", "mileage":17000, "fuel_consumed": 350},
+    {"make": "Mazda","model": "MX-5", "mileage":49000, "fuel_consumed": 900},
+    {"make": "Mini","model": "cooper", "mileage":31000, "fuel_consumed": 235},
+
+]
+def calculate_mpg(car_to_calculate):
+    mpg = car_to_calculate["mileage"] / car_to_calculate["fuel_consumed"]
+    name = f"{car_to_calculate['make']} {car_to_calculate['model']}"
+    print(f"{name} does {mpg} miles per gallon.")
+"""for car in cars:
+ calculate_mpg(car)""" # --print single line for each car
+calculate_mpg(cars[0])
+
+
