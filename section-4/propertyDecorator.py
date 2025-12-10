@@ -21,3 +21,5 @@ print(d.age)     # no (), looks like a variable but calls a method
    #@property, @setter, @deleter
    #Real-life examples (salary, marks, bank account)
    #Why we don’t access private variables directly
+
+   
