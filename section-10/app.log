@@ -1,0 +1,10 @@
+import logging
+
+logging.basicConfig(
+    filename="app.log",
+    level=logging.INFO,
+    format="%(levelname)s - %(message)s"
+)
+
+logging.info("App started")
+logging.error("Something went wrong")
